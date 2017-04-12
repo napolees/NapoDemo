@@ -8,6 +8,7 @@ target 'NapoDemo' do
   # use_frameworks!
 
   # Pods for NapoDemo
+  pod 	'AFNetworking'
 
   target 'NapoDemoTests' do
     inherit! :search_paths

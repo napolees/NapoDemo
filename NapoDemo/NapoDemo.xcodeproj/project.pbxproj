@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BD08C01DCF034F67BF48447 /* Pods_NapoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47B646172B85BDC7B86CEA /* Pods_NapoDemo.framework */; };
+		9D4828DDF06C6B1F36652ABF /* Pods_NapoDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A263AFF4541C9EB5EFCF1C0 /* Pods_NapoDemoTests.framework */; };
 		A024992C1E9DCC14001B7F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A024992B1E9DCC14001B7F46 /* main.m */; };
 		A024992F1E9DCC14001B7F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A024992E1E9DCC14001B7F46 /* AppDelegate.m */; };
 		A02499321E9DCC14001B7F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02499311E9DCC14001B7F46 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23DF3CDC78E0099167FE704B /* Pods-NapoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapoDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NapoDemoTests/Pods-NapoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A263AFF4541C9EB5EFCF1C0 /* Pods_NapoDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NapoDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA64DE92E3ABFD7C37CF52C /* Pods-NapoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NapoDemo/Pods-NapoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED12098CBC9C0EC619BE87C /* Pods-NapoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapoDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NapoDemoTests/Pods-NapoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A02499271E9DCC14001B7F46 /* NapoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NapoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A024992B1E9DCC14001B7F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A024992D1E9DCC14001B7F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		A02499401E9DCC14001B7F46 /* NapoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NapoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02499441E9DCC14001B7F46 /* NapoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NapoDemoTests.m; sourceTree = "<group>"; };
 		A02499461E9DCC14001B7F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD47B646172B85BDC7B86CEA /* Pods_NapoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NapoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A1A6986CE9D18FD1C07703 /* Pods-NapoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NapoDemo/Pods-NapoDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD08C01DCF034F67BF48447 /* Pods_NapoDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4828DDF06C6B1F36652ABF /* Pods_NapoDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25B9D5655BFD530C792E3226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD47B646172B85BDC7B86CEA /* Pods_NapoDemo.framework */,
+				5A263AFF4541C9EB5EFCF1C0 /* Pods_NapoDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A024991E1E9DCC14001B7F46 = {
 			isa = PBXGroup;
 			children = (
 				A02499291E9DCC14001B7F46 /* NapoDemo */,
 				A02499431E9DCC14001B7F46 /* NapoDemoTests */,
 				A02499281E9DCC14001B7F46 /* Products */,
+				C812AA5B3AE0A646973A8F70 /* Pods */,
+				25B9D5655BFD530C792E3226 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +132,17 @@
 			path = NapoDemoTests;
 			sourceTree = "<group>";
 		};
+		C812AA5B3AE0A646973A8F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA64DE92E3ABFD7C37CF52C /* Pods-NapoDemo.debug.xcconfig */,
+				F5A1A6986CE9D18FD1C07703 /* Pods-NapoDemo.release.xcconfig */,
+				7ED12098CBC9C0EC619BE87C /* Pods-NapoDemoTests.debug.xcconfig */,
+				23DF3CDC78E0099167FE704B /* Pods-NapoDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A02499491E9DCC14001B7F46 /* Build configuration list for PBXNativeTarget "NapoDemo" */;
 			buildPhases = (
+				E87FC826C744EEEB2C031B4F /* [CP] Check Pods Manifest.lock */,
 				A02499231E9DCC14001B7F46 /* Sources */,
 				A02499241E9DCC14001B7F46 /* Frameworks */,
 				A02499251E9DCC14001B7F46 /* Resources */,
+				AB5E46A8147F5EC7BC1464E6 /* [CP] Embed Pods Frameworks */,
+				31CCD1680105E65F0A2EA5E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A024994C1E9DCC14001B7F46 /* Build configuration list for PBXNativeTarget "NapoDemoTests" */;
 			buildPhases = (
+				EEB50B5ED5B4C031CD11E671 /* [CP] Check Pods Manifest.lock */,
 				A024993C1E9DCC14001B7F46 /* Sources */,
 				A024993D1E9DCC14001B7F46 /* Frameworks */,
 				A024993E1E9DCC14001B7F46 /* Resources */,
+				D7C562774B4FAEFE5A5D1E52 /* [CP] Embed Pods Frameworks */,
+				28725CCD7579186388CD5CD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +245,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28725CCD7579186388CD5CD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapoDemoTests/Pods-NapoDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31CCD1680105E65F0A2EA5E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapoDemo/Pods-NapoDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5E46A8147F5EC7BC1464E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapoDemo/Pods-NapoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C562774B4FAEFE5A5D1E52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapoDemoTests/Pods-NapoDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87FC826C744EEEB2C031B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB50B5ED5B4C031CD11E671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A02499231E9DCC14001B7F46 /* Sources */ = {
@@ -347,6 +478,7 @@
 		};
 		A024994A1E9DCC14001B7F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA64DE92E3ABFD7C37CF52C /* Pods-NapoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NapoDemo/Info.plist;
@@ -358,6 +490,7 @@
 		};
 		A024994B1E9DCC14001B7F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A1A6986CE9D18FD1C07703 /* Pods-NapoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NapoDemo/Info.plist;
@@ -369,6 +502,7 @@
 		};
 		A024994D1E9DCC14001B7F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED12098CBC9C0EC619BE87C /* Pods-NapoDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NapoDemoTests/Info.plist;
@@ -381,6 +515,7 @@
 		};
 		A024994E1E9DCC14001B7F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DF3CDC78E0099167FE704B /* Pods-NapoDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NapoDemoTests/Info.plist;
