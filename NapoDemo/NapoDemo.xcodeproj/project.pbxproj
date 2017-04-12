@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A024992C1E9DCC14001B7F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A024992B1E9DCC14001B7F46 /* main.m */; };
+		A024992F1E9DCC14001B7F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A024992E1E9DCC14001B7F46 /* AppDelegate.m */; };
+		A02499321E9DCC14001B7F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02499311E9DCC14001B7F46 /* ViewController.m */; };
+		A02499351E9DCC14001B7F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02499331E9DCC14001B7F46 /* Main.storyboard */; };
+		A02499371E9DCC14001B7F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02499361E9DCC14001B7F46 /* Assets.xcassets */; };
+		A024993A1E9DCC14001B7F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02499381E9DCC14001B7F46 /* LaunchScreen.storyboard */; };
+		A02499451E9DCC14001B7F46 /* NapoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02499441E9DCC14001B7F46 /* NapoDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02499411E9DCC14001B7F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A024991F1E9DCC14001B7F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02499261E9DCC14001B7F46;
+			remoteInfo = NapoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A02499271E9DCC14001B7F46 /* NapoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NapoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A024992B1E9DCC14001B7F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A024992D1E9DCC14001B7F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A024992E1E9DCC14001B7F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A02499301E9DCC14001B7F46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A02499311E9DCC14001B7F46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A02499341E9DCC14001B7F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A02499361E9DCC14001B7F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A02499391E9DCC14001B7F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A024993B1E9DCC14001B7F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02499401E9DCC14001B7F46 /* NapoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NapoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02499441E9DCC14001B7F46 /* NapoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NapoDemoTests.m; sourceTree = "<group>"; };
+		A02499461E9DCC14001B7F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02499241E9DCC14001B7F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A024993D1E9DCC14001B7F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A024991E1E9DCC14001B7F46 = {
+			isa = PBXGroup;
+			children = (
+				A02499291E9DCC14001B7F46 /* NapoDemo */,
+				A02499431E9DCC14001B7F46 /* NapoDemoTests */,
+				A02499281E9DCC14001B7F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02499281E9DCC14001B7F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02499271E9DCC14001B7F46 /* NapoDemo.app */,
+				A02499401E9DCC14001B7F46 /* NapoDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02499291E9DCC14001B7F46 /* NapoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A024992D1E9DCC14001B7F46 /* AppDelegate.h */,
+				A024992E1E9DCC14001B7F46 /* AppDelegate.m */,
+				A02499301E9DCC14001B7F46 /* ViewController.h */,
+				A02499311E9DCC14001B7F46 /* ViewController.m */,
+				A02499331E9DCC14001B7F46 /* Main.storyboard */,
+				A02499361E9DCC14001B7F46 /* Assets.xcassets */,
+				A02499381E9DCC14001B7F46 /* LaunchScreen.storyboard */,
+				A024993B1E9DCC14001B7F46 /* Info.plist */,
+				A024992A1E9DCC14001B7F46 /* Supporting Files */,
+			);
+			path = NapoDemo;
+			sourceTree = "<group>";
+		};
+		A024992A1E9DCC14001B7F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A024992B1E9DCC14001B7F46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A02499431E9DCC14001B7F46 /* NapoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02499441E9DCC14001B7F46 /* NapoDemoTests.m */,
+				A02499461E9DCC14001B7F46 /* Info.plist */,
+			);
+			path = NapoDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02499261E9DCC14001B7F46 /* NapoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02499491E9DCC14001B7F46 /* Build configuration list for PBXNativeTarget "NapoDemo" */;
+			buildPhases = (
+				A02499231E9DCC14001B7F46 /* Sources */,
+				A02499241E9DCC14001B7F46 /* Frameworks */,
+				A02499251E9DCC14001B7F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NapoDemo;
+			productName = NapoDemo;
+			productReference = A02499271E9DCC14001B7F46 /* NapoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A024993F1E9DCC14001B7F46 /* NapoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A024994C1E9DCC14001B7F46 /* Build configuration list for PBXNativeTarget "NapoDemoTests" */;
+			buildPhases = (
+				A024993C1E9DCC14001B7F46 /* Sources */,
+				A024993D1E9DCC14001B7F46 /* Frameworks */,
+				A024993E1E9DCC14001B7F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02499421E9DCC14001B7F46 /* PBXTargetDependency */,
+			);
+			name = NapoDemoTests;
+			productName = NapoDemoTests;
+			productReference = A02499401E9DCC14001B7F46 /* NapoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A024991F1E9DCC14001B7F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = FXTX;
+				TargetAttributes = {
+					A02499261E9DCC14001B7F46 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A024993F1E9DCC14001B7F46 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A02499261E9DCC14001B7F46;
+					};
+				};
+			};
+			buildConfigurationList = A02499221E9DCC14001B7F46 /* Build configuration list for PBXProject "NapoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A024991E1E9DCC14001B7F46;
+			productRefGroup = A02499281E9DCC14001B7F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02499261E9DCC14001B7F46 /* NapoDemo */,
+				A024993F1E9DCC14001B7F46 /* NapoDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02499251E9DCC14001B7F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A024993A1E9DCC14001B7F46 /* LaunchScreen.storyboard in Resources */,
+				A02499371E9DCC14001B7F46 /* Assets.xcassets in Resources */,
+				A02499351E9DCC14001B7F46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A024993E1E9DCC14001B7F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02499231E9DCC14001B7F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02499321E9DCC14001B7F46 /* ViewController.m in Sources */,
+				A024992F1E9DCC14001B7F46 /* AppDelegate.m in Sources */,
+				A024992C1E9DCC14001B7F46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A024993C1E9DCC14001B7F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02499451E9DCC14001B7F46 /* NapoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02499421E9DCC14001B7F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02499261E9DCC14001B7F46 /* NapoDemo */;
+			targetProxy = A02499411E9DCC14001B7F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A02499331E9DCC14001B7F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02499341E9DCC14001B7F46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A02499381E9DCC14001B7F46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02499391E9DCC14001B7F46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02499471E9DCC14001B7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A02499481E9DCC14001B7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A024994A1E9DCC14001B7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NapoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjfxtx.NapoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A024994B1E9DCC14001B7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NapoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjfxtx.NapoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A024994D1E9DCC14001B7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NapoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjfxtx.NapoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NapoDemo.app/NapoDemo";
+			};
+			name = Debug;
+		};
+		A024994E1E9DCC14001B7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NapoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjfxtx.NapoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NapoDemo.app/NapoDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02499221E9DCC14001B7F46 /* Build configuration list for PBXProject "NapoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02499471E9DCC14001B7F46 /* Debug */,
+				A02499481E9DCC14001B7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02499491E9DCC14001B7F46 /* Build configuration list for PBXNativeTarget "NapoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A024994A1E9DCC14001B7F46 /* Debug */,
+				A024994B1E9DCC14001B7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A024994C1E9DCC14001B7F46 /* Build configuration list for PBXNativeTarget "NapoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A024994D1E9DCC14001B7F46 /* Debug */,
+				A024994E1E9DCC14001B7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A024991F1E9DCC14001B7F46 /* Project object */;
+}
