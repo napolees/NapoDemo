@@ -1,3 +1,2 @@
 # NapoDemo
-# xx
 # dev test
